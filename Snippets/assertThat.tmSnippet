@@ -3,14 +3,14 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>\$this-&gt;assertTrue(${1:bool condition}${2:, '${3:message}'});$0</string>
+	<string>\$this-&gt;assertThat(${1:mixed value}, ${2:PHPUnit_Framework_Constraint constraint}${3:, '${4:message}'});$0</string>
 	<key>name</key>
-	<string>assertTrue</string>
+	<string>assertThat</string>
 	<key>scope</key>
 	<string>source.php</string>
 	<key>tabTrigger</key>
-	<string>ast</string>
+	<string>astt</string>
 	<key>uuid</key>
-	<string>3DDA97E0-47F0-4B8C-AAD0-2D2BE3F9CB23</string>
+	<string>63F0EE0A-2833-4768-8B05-4C8020B2FAFA</string>
 </dict>
 </plist>

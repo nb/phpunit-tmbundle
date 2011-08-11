@@ -3,14 +3,14 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>\$this-&gt;assertTrue(${1:bool condition}${2:, '${3:message}'});$0</string>
+	<string>${1:\$${2:result}=}\$this-&gt;setOutputCallback(${3:\$callback});$0</string>
 	<key>name</key>
-	<string>assertTrue</string>
+	<string>setOutputCallback</string>
 	<key>scope</key>
 	<string>source.php</string>
 	<key>tabTrigger</key>
-	<string>ast</string>
+	<string>out</string>
 	<key>uuid</key>
-	<string>3DDA97E0-47F0-4B8C-AAD0-2D2BE3F9CB23</string>
+	<string>B0D84DF8-0EA0-48E4-B292-27B7C83E9189</string>
 </dict>
 </plist>

@@ -2,15 +2,15 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>content</key>
-	<string>\$this-&gt;assertTrue(${1:bool condition}${2:, '${3:message}'});$0</string>
+	<key>command</key>
+	<string>[ -f "$TM_NEW_FILE" ] ||  perl -pe 's/\$\{([^}]*)\}/$ENV{$1}/g' &lt;ClassTest.php &gt;"$TM_NEW_FILE"</string>
+	<key>extension</key>
+	<string>php</string>
 	<key>name</key>
-	<string>assertTrue</string>
+	<string>Test Case</string>
 	<key>scope</key>
 	<string>source.php</string>
-	<key>tabTrigger</key>
-	<string>ast</string>
 	<key>uuid</key>
-	<string>3DDA97E0-47F0-4B8C-AAD0-2D2BE3F9CB23</string>
+	<string>A066F985-0F20-4194-93FB-D85CF292667E</string>
 </dict>
 </plist>

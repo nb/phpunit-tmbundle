@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>\$${1:mock} = \$this-&gt;getMock(
+  '${2:class}'${3:,
+  array('${4:method}'${5:})${6:,
+  array(${7:mixed param})${8:,
+  '${9:newClass}'${10:,
+  ${11:bool disableOriginalConstructor=false}${12:,
+  ${13:bool disableOriginalCloneConstructor=false}${14:,
+  ${15:bool disableAutoload=false}}}}}}}
+);$0</string>
+	<key>name</key>
+	<string>getMock(..)</string>
+	<key>scope</key>
+	<string>source.php</string>
+	<key>tabTrigger</key>
+	<string>mock</string>
+	<key>uuid</key>
+	<string>143759F2-2F39-4D3D-8369-461E7870415A</string>
+</dict>
+</plist>

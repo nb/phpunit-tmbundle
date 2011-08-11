@@ -3,23 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>public function setUp() 
-{
+	<string>public function setUp() {
 	$1
 }
 
-${2:public function tearDown() 
-{
+${2:public function tearDown() {
 	$3
 \}}
 
 $0</string>
 	<key>name</key>
-	<string>fixture</string>
+	<string>Fixtures</string>
 	<key>scope</key>
 	<string>source.php</string>
 	<key>tabTrigger</key>
-	<string>fixture</string>
+	<string>fixt</string>
 	<key>uuid</key>
 	<string>0A8A8F33-FD92-476A-A965-33ED423FF6DE</string>
 </dict>
